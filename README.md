@@ -12,7 +12,9 @@ This is still a work under process....
 
 • Will optimise code to minify the load time
 
-• Will optimise code and structure them properly for reuse 
+• Will optimise code to reduce the restructuring issues for easy code reuse
+
+• Will provide a proper documentation refering all the online resources used
 
 ## Licensing
 
