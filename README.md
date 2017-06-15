@@ -1,6 +1,6 @@
 # AK-Portfolio
 
-Front End Development Practice - Portfolio Design Project
+Portfolio Design Project as a part of Front End Development Practice
 
 This is still a work under process....
 
