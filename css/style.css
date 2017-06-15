@@ -1,0 +1,194 @@
+body{
+	margin: 2px;
+	padding: 2px;
+	background-color: #E2F3EB;
+}
+.main-container{
+	width: 100%;
+	border: 1px dashed #3f51b5;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+header{
+	height: 500px;
+	margin: 0;
+	padding: 1%;
+	background : url("../imgs/pic-background2.jpg") no-repeat;
+	background-size: 100% 100%;
+	background-position: center 0;
+
+/*	background: #5CFFB6;
+	
+    background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+	background: -webkit-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
+    background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+    background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
+*/
+}
+
+#img-border{
+	align-content: center;
+	width: 150px;
+	height: 175px;
+	overflow: hidden;
+	background-color: #fff;
+	display: inline-block;
+	margin-left: 45%;
+	margin-top: 4%;
+
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+#profile-img{
+	width: 150px;
+	height: 175px;	
+	margin: 0;
+	overflow: hidden;
+	display: inline-block;
+
+
+/* refer bennettfeely clippy */
+    -webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
+	clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
+}
+
+header h1{
+	text-align: center;
+	color: #fff;
+	margin: 1%;
+	padding: 0;
+
+	font-family: 'Baloo Chettan';
+	font-size: 96px;
+	text-shadow: 2px 3px 5px #000;
+/*	border: 1px solid #fff;
+*/
+}
+.social{
+	width: 90%;
+	display: inline-block;
+	float: left;
+	margin-left: 6%;
+	margin-top: 2%;
+	margin-right: 4%;	
+/*	border: 1px solid #fff;
+*/ 
+}
+
+.social img{
+	float: left;
+	position: relative;
+	margin-right: 1%;
+
+}
+
+.social a{
+	float: left;
+	position: relative;
+	
+	text-decoration: none;
+	color: #fff;
+	margin-top: 1.25%;
+	margin-right: 3%;
+	text-shadow: 4px 5px 5px #000;
+}
+
+nav{
+	width: 100%;
+	position: relative;
+	background-color: #000;
+	text-align: center;
+	padding-top: 4px;
+	margin: 0;
+	box-shadow: 0 2px 4px #000;
+}
+.fixed-nav{
+ 	position: fixed;
+    top: 0;
+}
+nav ul{
+	width: 100%;
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 50px;
+	padding: 1.5%;
+	background-color: #000;
+	transition: background-color 2s;
+}
+nav ul li:hover{
+	background-color: #5E6FC7;
+	transition: background-color 1s;
+}
+nav ul li:last-child{
+	margin-right: 0;
+
+}
+nav ul a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 2px 4px 4px #000;
+
+}
+
+.about-me{
+	height: 600px;
+	background-color: #4B72AA;
+}
+.my-skills{
+	height: 600px;
+	background-color: #7D71AD;
+}
+.my-projects{
+	height: 600px;
+	background-color: #60BE94;
+}
+.contact-me{
+	height: 600px;
+	background-color: #9E6B9A;
+}
+
+footer{
+	color: #fff;
+	margin-top: 0%;
+	padding: 2% 0 0 0; 
+	font-weight: normal;
+	border-top: 1px dashed #fff;
+
+	background-color: #57C7BC;
+	/* refer colllor for variations used in gradients */
+	background: radial-gradient(circle, #85D6CE, #47C2B6); 
+	background: -webkit-radial-gradient(circle, #85D6CE, #47C2B6);
+    background: -o-radial-gradient(circle, #85D6CE, #47C2B6); 
+    background: -moz-radial-gradient(circle, #85D6CE, #47C2B6);
+}
+
+.footer-1, .footer-2, .footer-3{
+	width: 30%;
+	height: 20%;
+	padding: 1%;
+	margin: 0 0 1% 5px;%;
+	border: 1px dashed #fff;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+
+
+}
+footer h4{
+	font-family: 'Open Sans';
+	text-align: center;
+	border-top: 1px dashed #fff;
+	margin: 0;
+	padding: 10px; 
+}
+footer h4 a{
+	text-decoration: none;
+	color: #0ff;
+}
