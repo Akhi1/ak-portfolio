@@ -12,7 +12,7 @@ This is still a work under process....
 
 • Will optimise code to minify the load time
 
-• Will optimise code structure them properly for reuse 
+• Will optimise code and structure them properly for reuse 
 
 ## Licensing
 
