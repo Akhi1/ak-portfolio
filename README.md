@@ -1,4 +1,4 @@
-# AK-Portfolio
+# Portfolio
 
 Portfolio Design Project as a part of Front End Development Practice
 
