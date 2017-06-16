@@ -3,10 +3,14 @@
 ## About 
 This is a Portfolio Design Project as a part of my Front End Development Practice
 
+This project doesnot use any front end framework and is built from scratch
+
 This is still a work under process....
 
 ## Planning
 • Will optimise the code to work on cross platform/browsers
+
+• Will re-implement the website using popular front-end frameworks 
 
 • Will add Responsive web design features
 
