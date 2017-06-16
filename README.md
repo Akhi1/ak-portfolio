@@ -1,7 +1,7 @@
 # Portfolio
 
 ## About 
-This is a Portfolio Design Project as a part of my Front End Development Practice
+This is a Portfolio Design Project developed as a part of my Front End Development Practice
 
 This project doesnot use any front end framework and is built from scratch
 
