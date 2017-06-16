@@ -20,10 +20,10 @@ header{
 
 /*	background: #5CFFB6;
 	
-    background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+	background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
 	background: -webkit-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
-    background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
-    background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
+	background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+	background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
 */
 }
 
@@ -37,7 +37,7 @@ header{
 	margin-left: 45%;
 	margin-top: 4%;
 
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 #profile-img{
@@ -49,7 +49,7 @@ header{
 
 
 /* refer bennettfeely clippy */
-    -webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
+    	-webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
 	clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
 }
 
@@ -105,7 +105,7 @@ nav{
 }
 .fixed-nav{
  	position: fixed;
-    top: 0;
+    	top: 0;
 }
 nav ul{
 	width: 100%;
@@ -165,8 +165,8 @@ footer{
 	/* refer colllor for variations used in gradients */
 	background: radial-gradient(circle, #85D6CE, #47C2B6); 
 	background: -webkit-radial-gradient(circle, #85D6CE, #47C2B6);
-    background: -o-radial-gradient(circle, #85D6CE, #47C2B6); 
-    background: -moz-radial-gradient(circle, #85D6CE, #47C2B6);
+    	background: -o-radial-gradient(circle, #85D6CE, #47C2B6); 
+    	background: -moz-radial-gradient(circle, #85D6CE, #47C2B6);
 }
 
 .footer-1, .footer-2, .footer-3{
