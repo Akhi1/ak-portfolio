@@ -29,11 +29,17 @@ $(document).ready(function(){
 
 	/* fix navbar after scroll */
 	$(window).bind('scroll', function(){
-    	if ($(window).scrollTop() > 450){
+    	if($(window).scrollTop() > 450){
         	$('nav').addClass('fixed-nav'); /* you can also use toggleClass() */
     	}
     	else{
         	$('nav').removeClass('fixed-nav');
     	}
 	});
+
+	/* profile image toggle */
+	$("#profile-img").click(function(){
+   		$(this).attr('src', "imgs/profile-pik1.jpg");
+ 	});
+
 });
