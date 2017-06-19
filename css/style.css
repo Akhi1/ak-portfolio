@@ -19,10 +19,10 @@ header{
 	background-position: center 0;
 
 /*	background: #5CFFB6;	
-    background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+	background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
 	background: -webkit-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
-    background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
-    background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
+	background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+	background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
 */
   	z-index: 0;
 }
@@ -57,7 +57,7 @@ header::after{
 	margin-left: 45%;
 	margin-top: 4%;
 
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 #profile-img{
@@ -69,7 +69,7 @@ header::after{
 
 
 /* refer bennettfeely clippy */
-    -webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
+	-webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
 	clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
 }
 
@@ -123,18 +123,17 @@ nav{
 	border-top: 1px solid #fff;
 }
 .fixed-nav{
- 	position: fixed;
-    border: none;
-    top: 0;
-    z-index: 9999;
+	position: fixed;
+	border: none;
+	top: 0;
+	z-index: 9999;
 
-    height: 50px;
+	height: 50px;
 	box-shadow: 0px 4px 4px #000;
 
 }
 .fixed-nav > ul > li{
 	padding: 1%;
-
 }
 
 nav ul{
@@ -257,8 +256,8 @@ footer{
 	/* refer colllor for variations used in gradients */
 	background: radial-gradient(circle, #1E8EC2, #114E6A); 
 	background: -webkit-radial-gradient(circle, #1E8EC2, #114E6A);
-    background: -o-radial-gradient(circle, #1E8EC2, #114E6A); 
-    background: -moz-radial-gradient(circle, #1E8EC2, #114E6A);
+	background: -o-radial-gradient(circle, #1E8EC2, #114E6A); 
+	background: -moz-radial-gradient(circle, #1E8EC2, #114E6A);
 }
 
 .footer-1, .footer-2, .footer-3{
