@@ -1,11 +1,9 @@
 body{
+	margin: 0;
 	background-color: #E2F3EB;
 }
 .main-container{
 	width: 100%;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-
 }
 header{
 	height: 500px;
