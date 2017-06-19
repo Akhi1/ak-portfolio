@@ -1,44 +1,42 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #E2F3EB;
+	background-color: #fff;
 }
 .main-container{
 	width: 100%;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+
 }
 header{
 	height: 500px;
 	margin: 0;
-	padding: 0;
-	background : url("../imgs/pic-background2.jpg") no-repeat;
+	padding: 1%;
+	background : url("../imgs/pic-background5.jpg") no-repeat;
 	position: relative;
 
 	background-size: 100% 100%;
 	background-position: center 0;
 
 /*	background: #5CFFB6;	
-	background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+    background: radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
 	background: -webkit-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
-	background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
-	background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
+    background: -o-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%); 
+    background: -moz-radial-gradient(circle, #5CFFB6 20%, #70FFBF 20%, #85FFC8 60%);
 */
   	z-index: 0;
 }
 
 /* adding blur effect on header image */
 header::after{
-	content: " ";
+	content: "";
 	width: 100%;
 	height: 100%;
 	position: inherit;
 	display: inline-block;
 
-	left: 0;
-	right: 0;
-	top: 0;
-	z-index: -1;
+	z-index: 9999;
 
 	filter: blur(5px);
 	-webkit-filter: blur(5px);
@@ -57,7 +55,7 @@ header::after{
 	margin-left: 45%;
 	margin-top: 4%;
 
-	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 #profile-img{
@@ -69,7 +67,7 @@ header::after{
 
 
 /* refer bennettfeely clippy */
-	-webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
+    -webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
 	clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
 }
 
@@ -77,12 +75,13 @@ header h1{
 	text-align: center;
 	color: #fff;
 	margin: 1%;
-	padding: 0;
+	padding: 1%;
 
 	font-family: 'Baloo Chettan';
 	font-size: 96px;
 	text-shadow: 2px 3px 5px #000;
-/*	border: 1px solid #fff;
+/*	
+border: 1px solid #fff;
 */
 }
 .social{
@@ -92,7 +91,8 @@ header h1{
 
 	margin-left: 10%;
 	margin-top: 2%;
-/*	border: 1px solid #fff;
+/*	
+border: 1px solid #fff;
 */
 }
 
@@ -100,6 +100,7 @@ header h1{
 	float: left;
 	position: relative;
 	margin-right: 1%;
+	box-shadow: 2px 3px 5px #000;
 
 }
 
@@ -110,7 +111,7 @@ header h1{
 	color: #fff;
 	padding-top: 1.25%;
 	margin-right: 3%;
-	text-shadow: 4px 5px 5px #000;
+	text-shadow: 2px 3px 5px #000;
 }
 
 nav{
@@ -123,12 +124,12 @@ nav{
 	border-top: 1px solid #fff;
 }
 .fixed-nav{
-	position: fixed;
-	border: none;
-	top: 0;
-	z-index: 9999;
+ 	position: fixed;
+    border: none;
+    top: 0;
+    z-index: 9999;
 
-	height: 50px;
+    height: 50px;
 	box-shadow: 0px 4px 4px #000;
 
 }
@@ -162,51 +163,55 @@ nav ul a{
 	text-decoration: none;
 	font-size: 20px;
 	color: #fff;
-	text-shadow: 2px 4px 4px #000;
+	text-shadow: 2px 3px 4px #000;
 
 }
 
 .about-me{
-	padding: 4% 15%;
-	height: 30%;
-	background-image: 
+	padding: 0 10%;
+	height: 50%;
 
+	background-color: #fff;
 /*
-	background-color: #E0E0E0;
 	border: 1px solid #fff;
 */
 }
 .bg-about-me{
 	height: 90%;
 	display: inline-block;
+	font-family: "Droid Sans", Arial, serif;
 
-	background-color: #fff;
-	opacity: 0.8;
-	padding: 5% 2%;
-	border-radius: 10px;
-	box-shadow: 3px 4px 30px #ccc;
+	background-color: #f9f9f9;
+	padding: 5%;
 }
 
 #head-underline{
 	margin-left: 15%; 
-	margin-bottom: 8%;
+	margin-bottom: 5%;
 	width: 70%;	
-	height: 36px;
+	height: 28px;
+	box-align: center;
 
 	border-bottom: 10px solid #808080;
 
 }
+.bg-about-me>ul>li{
+	margin-left: 15%;
+	height: 28px;
+	list-style-type: square;
+}
+
 
 .about-me h2{
-	margin-left: 18%;
+	margin-left: 19%;
 	padding-left: 2%;
 	padding-right: 2%;
 	width: 60%;
-	background-color: #fff;
-	font-size: 64px;
+	background-color: #f9f9f9;
+
+	font-size: 60px;
 	font-weight: bolder;
 	text-align: center;
-	font-family: "Droid Sans", Arial, serif;
 
 /*	
 border: 2px solid #000;
@@ -216,7 +221,6 @@ border: 2px solid #000;
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 1%;
-	font-family: "Droid Sans", Arial, serif;
 
 }
 .about-me p{
@@ -227,22 +231,31 @@ border: 2px solid #000;
 	margin-top: 0;
 	text-align: justify;
 	position: relative;
-
+	line-height: 27px;
+}
+#fav-quote{
+	font-family: comic sans; 
+	padding-left: 10%; 
+	padding-right: 10%;
+	
+	
 }
 
 .my-skills{
-	height: 600px;
-	background-color: #7D71AD;
+	height: 500px;
+	border: 1px solid #808080;
 }
 
 .my-projects{
-	height: 600px;
-	background-color: #60BE94;
+	height: 500px;
+	border: 1px solid #808080;
+
 }
 
 .contact-me{
-	height: 600px;
-	background-color: #9E6B9A;
+	height: 500px;
+	border: 1px solid #808080;
+
 }
 
 footer{
@@ -256,8 +269,8 @@ footer{
 	/* refer colllor for variations used in gradients */
 	background: radial-gradient(circle, #1E8EC2, #114E6A); 
 	background: -webkit-radial-gradient(circle, #1E8EC2, #114E6A);
-	background: -o-radial-gradient(circle, #1E8EC2, #114E6A); 
-	background: -moz-radial-gradient(circle, #1E8EC2, #114E6A);
+    background: -o-radial-gradient(circle, #1E8EC2, #114E6A); 
+    background: -moz-radial-gradient(circle, #1E8EC2, #114E6A);
 }
 
 .footer-1, .footer-2, .footer-3{
@@ -272,13 +285,30 @@ footer{
 	clear: left;
 
 }
-footer h4{
-	text-align: center;
-	border-top: 1px solid #fff;
+.attributes{
+	background-color: #000;
+	border-top: 1px, bold #fff;
 	margin: 0;
-	padding: 10px; 
+	padding: 0;
 }
-footer h4 a{
+.attributes p{
+	text-align: center;
+}
+.attributes a{
 	text-decoration: none;
 	color: #0ff;
+}
+.heart {
+	fill: red;
+	position: relative;
+	top: 5px;
+	width: 25px;
+
+	animation: pulse 1s ease infinite; 
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.5); }
+  50% { transform: scale(1); }
+  100% { transform: scale(0.5); }
 }
