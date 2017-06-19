@@ -5,7 +5,8 @@ body{
 }
 .main-container{
 	width: 100%;
-	border: 5px dashed #000;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 header{
 	height: 500px;
