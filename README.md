@@ -4,7 +4,7 @@ This is a Portfolio Design Project developed as a part of my Front End Developme
 
 This project doesnot use any front end framework and is built from scratch
 
-This is still a Work Under Process.........
+> This is still a "Work Under Process"
 
 ## Planning
 • Will optimise the code to work on cross platform/browsers
@@ -33,4 +33,4 @@ This is still a Work Under Process.........
 
 ## License
 
-[GNU GENERAL PUBLIC LICENSE](./LICENSE) © Akhil
+[GNU GENERAL PUBLIC LICENSE](./LICENSE) © [Akhil](https://github.com/Akhi1)
