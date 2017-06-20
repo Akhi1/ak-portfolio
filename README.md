@@ -1,6 +1,5 @@
 # Portfolio
 
-## About 
 This is a Portfolio Design Project developed as a part of my Front End Development learning
 
 This project doesnot use any front end framework and is built from scratch
@@ -22,12 +21,16 @@ This is still a Work Under Process.........
 
 ## Contributing
 
-### Fork it
-### Create your feature branch: git checkout -b my-new-feature
-### Commit your changes: git commit -m 'Add some feature'
-### Push to the branch: git push origin my-new-feature
-### Submit a pull request
+1. Fork it
+
+2. Create your feature branch: `git checkout -b my-new-feature`
+
+3. Commit your changes: `git commit -m 'Add some feature'`
+
+4. Push to the branch: `git push origin my-new-feature`
+
+5. Submit a pull request
 
 ## License
 
-GNU GENERAL PUBLIC LICENSE © Akhil
+[GNU GENERAL PUBLIC LICENSE](./LICENSE) © Akhil
