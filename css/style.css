@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #fff;
+	background-color: #f9f9f9;
 }
 .main-container{
 	width: 100%;
@@ -12,7 +12,7 @@ body{
 header{
 	height: 500px;
 	margin: 0;
-	padding: 1%;
+	padding: 5%;
 	background : url("../imgs/pic-background2.jpg") no-repeat;
 	position: relative;
 
@@ -29,42 +29,47 @@ header{
 }
 
 /* adding blur effect on header image */
-header::after{
-	content: "";
+.blur-me{
+/*	
+*/	
 	width: 100%;
-	height: 100%;
-	position: inherit;
-	display: inline-block;
+	height: 700px;
+	position: relative;
+	background-color: #000;
 
+	border: 1px solid #fff;
 	z-index: 9999;
+	opacity: 0.2;
+    filter: alpha(opacity=60);
 
-	filter: blur(5px);
-	-webkit-filter: blur(5px);
+/*
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
 	-moz-filter: blur(5px);
 	-o-filter: blur(5px);
 	-ms-filter: blur(5px);
+*/
 }
 
 #img-border{
 	align-content: center;
-	width: 150px;
-	height: 175px;
+	width: 175px;
+	height: 200px;
 	overflow: hidden;
 	background-color: #fff;
+
 	display: inline-block;
-	margin-left: 45%;
-	margin-top: 4%;
+	margin: 2% 43% 1% 43%;
 
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 #profile-img{
-	width: 150px;
-	height: 175px;	
-	margin: 0;
+	width: 175px;
+	height: 200px;	
+	
 	overflow: hidden;
 	display: inline-block;
-
 
 /* refer bennettfeely clippy */
     -webkit-clip-path: polygon(50% 5%, 95% 27.5%, 95% 72.5%, 50% 95%, 5% 72.5%, 5% 27.5%);
@@ -74,44 +79,32 @@ header::after{
 header h1{
 	text-align: center;
 	color: #fff;
-	margin: 1%;
-	padding: 1%;
+	margin: 1% 0 4% 0;
+	padding: 0;
 
 	font-family: 'Baloo Chettan';
-	font-size: 96px;
+	font-size: 8em;
 	text-shadow: 2px 3px 5px #000;
 /*	
 border: 1px solid #fff;
 */
 }
 .social{
-	width: 90%;
-	display: inline;
-	float: left;
-
-	margin-left: 10%;
-	margin-top: 2%;
+	width: 30%;	
+	
+	margin: 0 auto;
+	position: relative;
 /*	
-border: 1px solid #fff;
+	border: 1px solid #fff;
 */
 }
 
 .social img{
-	float: left;
-	position: relative;
-	margin-right: 1%;
+	margin-left: 30px;
 	box-shadow: 2px 3px 5px #000;
-
-}
-
-.social a{
-	float: left;
-	
-	text-decoration: none;
-	color: #fff;
-	padding-top: 1.25%;
-	margin-right: 3%;
-	text-shadow: 2px 3px 5px #000;
+/*
+	border: 1px solid #fff;
+*/
 }
 
 nav{
@@ -119,7 +112,7 @@ nav{
 	position: relative;
 	background-color: #000;
 	text-align: center;
-	padding-top: 4px;
+	padding-top: 0px;
 	margin: 0;
 	border-top: 1px solid #fff;
 }
@@ -135,7 +128,13 @@ nav{
 }
 .fixed-nav > ul > li{
 	padding: 1%;
+	margin-top: 1px;
 }
+
+::selection{
+	color: #fff;
+	background-color: 
+};
 
 nav ul{
 	width: 100%;
@@ -148,11 +147,13 @@ nav ul li{
 	display: inline-block;
 	margin-right: 50px;
 	padding: 2%;
+	color: #fff;
 	background-color: #000;
 	transition: background-color 2s;
 }
 nav ul li:hover{
-	background-color: #5E6FC7;
+	color: #000;
+	background-color: #fff;
 	transition: background-color 1s;
 }
 nav ul li:last-child{
@@ -162,16 +163,12 @@ nav ul li:last-child{
 nav ul a{
 	text-decoration: none;
 	font-size: 20px;
-	color: #fff;
-	text-shadow: 2px 3px 4px #000;
 
 }
 
 .about-me{
 	padding: 0 10%;
 	height: 50%;
-
-	background-color: #fff;
 /*
 	border: 1px solid #fff;
 */
@@ -179,9 +176,7 @@ nav ul a{
 .bg-about-me{
 	height: 90%;
 	display: inline-block;
-	font-family: "Droid Sans", Arial, serif;
 
-	background-color: #f9f9f9;
 	padding: 5%;
 }
 
@@ -197,7 +192,8 @@ nav ul a{
 }
 .bg-about-me>ul>li{
 	margin-left: 15%;
-	height: 28px;
+	margin-right: 5%;
+	height: 30px;
 	list-style-type: square;
 }
 
@@ -231,13 +227,12 @@ border: 2px solid #000;
 	margin-top: 0;
 	text-align: justify;
 	position: relative;
-	line-height: 27px;
+	line-height: 30px;
 }
 #fav-quote{
-	font-family: comic sans; 
 	padding-left: 10%; 
 	padding-right: 10%;
-	
+	color: #444;
 	
 }
 
@@ -263,36 +258,39 @@ footer{
 	margin-top: 0%;
 	padding: 2% 0 0 0; 
 	font-weight: normal;
-	border-top: 1px dashed #fff;
+	
 
-	background-color: #114E6A;
-	/* refer colllor for variations used in gradients */
-	background: radial-gradient(circle, #1E8EC2, #114E6A); 
-	background: -webkit-radial-gradient(circle, #1E8EC2, #114E6A);
-    background: -o-radial-gradient(circle, #1E8EC2, #114E6A); 
-    background: -moz-radial-gradient(circle, #1E8EC2, #114E6A);
+/* refer colllor for variations used in gradients 
+*/
+	background-color: #707070;
+	background: radial-gradient(top, #333, #0a0a0a); 
+	background: -webkit-radial-gradient(top, #333, #0a0a0a);
+    background: -o-radial-gradient(top, #333, #0a0a0a); 
+    background: -moz-radial-gradient(top, #333, #0a0a0a);
 }
 
 .footer-1, .footer-2, .footer-3{
 	width: 30%;
 	height: 20%;
 	padding: 1%;
-	margin: 0 0 1% 5px;%;
+	margin: 0 0 1% 8px;
+
 	border: 1px dashed #fff;
 	border-radius: 10px;
 	position: relative;
 	display: inline-block;
-	clear: left;
 
 }
 .attributes{
+	position: relative;
 	background-color: #000;
-	border-top: 1px, bold #fff;
-	margin: 0;
-	padding: 0;
+	border-top: 1px solid #fff;
+
 }
 .attributes p{
 	text-align: center;
+	margin: 0;
+	padding: 1.5%;
 }
 .attributes a{
 	text-decoration: none;
