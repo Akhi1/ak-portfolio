@@ -7,9 +7,7 @@ This project doesnot use any front end framework and is built from scratch
 > This is still a "Work Under Process"
 
 ## Planning
-• Will optimise the code to work on cross platform/browsers
-
-• Will re-implement the website using popular front-end frameworks 
+• Will add responsive features using any popular framework
 
 • Will add Responsive web design features
 
@@ -17,7 +15,7 @@ This project doesnot use any front end framework and is built from scratch
 
 • Will optimise code to reduce the restructuring issues for easy code reuse
 
-• Will provide a proper documentation refering all the online resources used
+• Will provide a proper documentation refering all the resources used im building this project
 
 ## Contributing
 
