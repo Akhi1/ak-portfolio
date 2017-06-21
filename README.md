@@ -4,9 +4,7 @@ This is a Portfolio Design Project developed as a part of my Front End Developme
 
 This project doesnot use any front end framework and is built from scratch
 
-> .
-> This project is still a "Work Under Process"
-> .
+> <b>This project is still a "Work Under Process"<b>
 
 ## Planning
 • Will add responsive features using any popular framework
